@@ -7,16 +7,16 @@
              x:Class="BlockTrack.App.Views.MenuPage"
              Title="Menu">
 
-    <StackLayout VerticalOptions="FillAndExpand">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
 
         <Label Text="Welcome to BlockTrack!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+        
         <Button Text="Read barcode"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center"
-                    Clicked="Button_Clicked"/>
-
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
 
         <ListView x:Name="ListViewMenu"
                     HasUnevenRows="True">
