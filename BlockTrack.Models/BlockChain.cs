@@ -21,7 +21,7 @@ namespace BlockTrack.Models
 
         private Queue<string> MetadataQueue;
 
-        private object QueueLock;
+        private object QueueLock = new object();
         #endregion
 
         #region Getters
